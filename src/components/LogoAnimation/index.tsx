@@ -10,7 +10,7 @@ export function LogoAnimation() {
 
   const numberElements = 9;
   const elementsArray = Array.from({ length: numberElements }).map(
-    (item, index) => (
+    (_item, index) => (
       <M_SVG
         key={index}
         fill={logoColor ? "#fff" : "none"}
